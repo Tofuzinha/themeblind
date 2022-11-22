@@ -1097,6 +1097,13 @@
     resolve-global "1.0.0"
     yargs "^17.0.0"
 
+"@commitlint/config-conventional@^17.1.0":
+  version "17.1.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-17.1.0.tgz#9bd852766e08842bfe0fe4deb40e152eb718ec1b"
+  integrity sha512-WU2p0c9/jLi8k2q2YrDV96Y8XVswQOceIQ/wyJvQxawJSCasLdRB3kUIYdNjOCJsxkpoUlV/b90ZPxp1MYZDiA==
+  dependencies:
+    conventional-changelog-conventionalcommits "^5.0.0"
+
 "@commitlint/config-validator@^17.1.0":
   version "17.1.0"
   resolved "https://registry.npmjs.org/@commitlint/config-validator/-/config-validator-17.1.0.tgz"
@@ -3384,26 +3391,6 @@ commander@^8.3.0:
   resolved "https://registry.npmjs.org/commander/-/commander-8.3.0.tgz"
   integrity sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==
 
-commitlint-config-jira@^1.6.4:
-  version "1.6.4"
-  resolved "https://registry.npmjs.org/commitlint-config-jira/-/commitlint-config-jira-1.6.4.tgz"
-  integrity sha512-DNVOzQZgNPZuFYU61mVRssm0t+4IR7eF5VQA3RCGYdz45usauekjguOXJmV3uxEHIoqVDctKN2UrUlhbKCymrQ==
-  dependencies:
-    commitlint-jira-utils "^1.6.4"
-    opencollective-postinstall "^2.0.2"
-
-commitlint-jira-utils@^1.6.4:
-  version "1.6.4"
-  resolved "https://registry.npmjs.org/commitlint-jira-utils/-/commitlint-jira-utils-1.6.4.tgz"
-  integrity sha512-1Mp5b0Q31XBreH3EKrDy8sD6vZmcXFm1x6OXeskaiiOKm5C1qQ0ObOiF66RKozuUAixaOGgHje6N/T+nfd5GBA==
-
-commitlint-plugin-jira-rules@^1.6.4:
-  version "1.6.4"
-  resolved "https://registry.npmjs.org/commitlint-plugin-jira-rules/-/commitlint-plugin-jira-rules-1.6.4.tgz"
-  integrity sha512-e+5pfp6emYp02Qm0OCs8rvPApKpTK7+HpndA2R9RJzNY0kg2i2/CGHuWd+StigMZe1Wmeo/d3H8Cwwlz3biWxA==
-  dependencies:
-    commitlint-jira-utils "^1.6.4"
-
 common-path-prefix@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/common-path-prefix/-/common-path-prefix-3.0.0.tgz"
@@ -3480,6 +3467,15 @@ conventional-changelog-angular@^5.0.11:
   integrity sha512-i/gipMxs7s8L/QeuavPF2hLnJgH6pEZAttySB6aiQLWcX3puWDL3ACVmvBhJGxnAy52Qc15ua26BufY6KpmrVA==
   dependencies:
     compare-func "^2.0.0"
+    q "^1.5.1"
+
+conventional-changelog-conventionalcommits@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-5.0.0.tgz#41bdce54eb65a848a4a3ffdca93e92fa22b64a86"
+  integrity sha512-lCDbA+ZqVFQGUj7h9QBKoIpLhl8iihkO0nCTyRNzuXtcd7ubODpYB04IFy31JloiJgG0Uovu8ot8oxRzn7Nwtw==
+  dependencies:
+    compare-func "^2.0.0"
+    lodash "^4.17.15"
     q "^1.5.1"
 
 conventional-commits-parser@^3.2.2:
@@ -5205,11 +5201,6 @@ human-signals@^2.1.0:
   resolved "https://registry.npmjs.org/human-signals/-/human-signals-2.1.0.tgz"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
 
-husky@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.npmjs.org/husky/-/husky-8.0.1.tgz"
-  integrity sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==
-
 iconv-lite@0.4.24:
   version "0.4.24"
   resolved "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz"
@@ -6760,11 +6751,6 @@ open@^8.0.9, open@^8.4.0:
     define-lazy-prop "^2.0.0"
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
-
-opencollective-postinstall@^2.0.2:
-  version "2.0.3"
-  resolved "https://registry.npmjs.org/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz"
-  integrity sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q==
 
 optionator@^0.8.1:
   version "0.8.3"
